@@ -126,6 +126,17 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+	    <!-- GraphQL -->
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-graphql</artifactId>
+	    </dependency>
+		<dependency>
+		    <groupId>com.graphql-java-kickstart</groupId>
+		    <artifactId>playground-spring-boot-starter</artifactId>
+		    <version>11.1.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

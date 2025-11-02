@@ -21,7 +21,17 @@ public enum ErrorCode {
     TOKEN_INVALID("TOKEN.0001", "토큰 정보가 올바르지 않습니다."),
     TOKEN_NOT_FOUND("TOKEN.0002", "토큰 정보가 존재하지 않습니다."),
     
-    DATABASE_CONNECTION_FAILURE("DB.5001", "데이터베이스 연결 실패");
+    DATABASE_CONNECTION_FAILURE("DB.5001", "데이터베이스 연결 실패"),
+	
+    MENU_NOT_FOUND("MENU.6000", "메뉴가 존재하지 않습니다."),
+    MENU_DUPLICATED("MENU.6001", "중복된 메뉴가 존재합니다."),
+    MENU_INVALID_TYPE("MENU.6002", "잘못된 메뉴 타입입니다."),
+    MENU_UNAVAILABLE("MENU.6003", "현재 판매 중이 아닌 메뉴입니다."),
+    
+    MENU_OPTION_NOT_FOUND("MENU.6000", "옵션이 존재하지 않습니다."),
+    MENU_OPTION_DUPLICATED("MENU.6001", "중복된 옵션이 존재합니다."),
+    MENU_OPTION_INVALID_TYPE("MENU.6002", "잘못된 옵션 타입입니다."),
+    MENU_OPTION_UNAVAILABLE("MENU.6003", "현재 판매 중이 아닌 옵션입니다.");
 	
 	private final String code;
 	private final String message;

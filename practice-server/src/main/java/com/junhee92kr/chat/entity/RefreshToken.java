@@ -19,7 +19,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "refresh_token", schema = "chat")
+@Table(name = "refresh_token", catalog = "chat")
 @ToString
 public class RefreshToken {
 	@Id
